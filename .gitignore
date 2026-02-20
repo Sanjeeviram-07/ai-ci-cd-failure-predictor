@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environment
+venv/
+.env
+
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Model artifacts (optional: keep or ignore based on preference)
+models/*.pkl
+
+# Data (keep raw Kaggle data out of git if large)
+data/raw/*.csv
+data/processed/*.csv
+
+# IDE
+.vscode/
+.idea/
