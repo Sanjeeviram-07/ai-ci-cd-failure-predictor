@@ -12,6 +12,7 @@ jobs:
 
     env:
       FAILURE_THRESHOLD: 0.8   
+      DEMO_MODE: true
 
     steps:
       - name:  Checkout code
