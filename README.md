@@ -1,6 +1,6 @@
 # 🚀 AI CI/CD Failure Predictor (AI-Powered Quality Gate)
 
-![CI Status](https://img.shields.io/badge/CI-GitHub%20Actions-blue)
+![CI Status](https://github.com/Sanjeeviram-07/ai-ci-cd-failure-predictor/actions/workflows/ci.yml/badge.svg)
 
 An end-to-end **AI + DevOps (MLOps)** project that predicts CI/CD
 pipeline failure risk using **Machine Learning** and integrates the
@@ -141,3 +141,4 @@ python src/predict.py
 ## 👤 Author
 
 **Sanjeeviram**
+
