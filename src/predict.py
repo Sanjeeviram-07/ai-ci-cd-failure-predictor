@@ -88,4 +88,6 @@ if proba >= THRESHOLD:
 else:
     print(f" Risk {proba:.2f} < threshold {THRESHOLD}. Proceeding.")
 # Exit with status based on SAFE scenario (for PASS demo)
+# sys.exit(1 if model.predict(pd.DataFrame([safe_sample]))[0] == 1 else 0)
+# Demo PASS: exit based on SAFE scenario
 sys.exit(1 if model.predict(pd.DataFrame([safe_sample]))[0] == 1 else 0)
