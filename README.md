@@ -57,8 +57,9 @@ risky releases automatically.
 
 ##  AI-Powered CI/CD Quality Gate
 
-Decision Logic: - **Risk ≥ Threshold** → ❌ Block deployment\
-- **Risk \< Threshold** → ✅ Allow deployment
+Decision Logic: 
+- **Risk ≥ Threshold** →  Block deployment
+- **Risk \< Threshold** →  Allow deployment
 
 Configurable Environment Variables:
 
@@ -141,5 +142,6 @@ python src/predict.py
 ##  Author
 
 **Sanjeeviram**
+
 
 
