@@ -20,7 +20,7 @@ Thumbs.db
 *.log
 
 # Model artifacts (optional: keep or ignore based on preference)
-models/*.pkl
+#models/*.pkl
 
 # Data (keep raw Kaggle data out of git if large)
 #data/raw/*.csv
