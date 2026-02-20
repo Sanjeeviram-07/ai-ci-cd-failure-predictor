@@ -69,35 +69,34 @@ docker run --rm -e DEMO_MODE=true -e FAILURE_THRESHOLD=0.8 ai-ci-cd-failure-pred
 ## Folder Structure
 
 ai-ci-cd-failure-predictor/
-│
 ├── .github/
 │   └── workflows/
-│       └── ci.yml                  # GitHub Actions CI/CD pipeline
+│       └── ci.yml                 # GitHub Actions CI/CD pipeline
 │
 ├── data/
 │   ├── raw/
-│   │   └── cicd_logs_kaggle.csv     # Original dataset (Kaggle)
+│   │   └── cicd_logs_kaggle.csv   # Original dataset (Kaggle)
 │   └── processed/
-│       └── cicd_logs_clean.csv      # Cleaned dataset for training
+│       └── cicd_logs_clean.csv   # Cleaned dataset for training
 │
 ├── src/
-│   ├── preprocess.py               # Data cleaning & feature engineering
-│   ├── train.py                    # Model training pipeline
-│   ├── evaluate.py                 # Evaluation + metrics & confusion matrix
-│   └── predict.py                  # AI quality gate (CI blocking logic)
+│   ├── preprocess.py             # Data cleaning & feature engineering
+│   ├── train.py                  # Model training pipeline
+│   ├── evaluate.py               # Evaluation + metrics + confusion matrix
+│   └── predict.py                # AI quality gate (CI blocking logic)
 │
 ├── models/
-│   └── cicd_fail_model.pkl         # Trained model (artifact)
+│   └── cicd_fail_model.pkl       # Trained model artifact
 │
 ├── reports/
-│   ├── metrics.txt                 # Classification report (CI artifact)
-│   └── confusion_matrix.png        # Confusion matrix plot (CI artifact)
+│   ├── metrics.txt               # Classification report (CI artifact)
+│   └── confusion_matrix.png      # Confusion matrix plot (CI artifact)
 │
-├── Dockerfile                      # Docker image for AI quality gate
-├── requirements.txt                # Python dependencies
-├── README.md                       # Project documentation
-├── .gitignore                      # Git ignore rules
-└── Makefile                        # (Optional) DevOps automation shortcuts
+├── Dockerfile                    # Docker image for AI quality gate
+├── requirements.txt              # Python dependencies
+├── README.md                     # Project documentation
+├── .gitignore                    # Git ignore rules
+└── Makefile                      # (Optional) DevOps automation shortcuts
 
 ------------------------------------------------------------------------
 
@@ -123,4 +122,5 @@ python src/predict.py
 ## 👤 Author
 
 Sanjeeviram
+
 
