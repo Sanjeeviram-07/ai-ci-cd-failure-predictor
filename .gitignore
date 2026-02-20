@@ -23,8 +23,8 @@ Thumbs.db
 models/*.pkl
 
 # Data (keep raw Kaggle data out of git if large)
-data/raw/*.csv
-data/processed/*.csv
+#data/raw/*.csv
+#data/processed/*.csv
 
 # IDE
 .vscode/
