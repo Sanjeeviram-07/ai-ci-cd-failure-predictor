@@ -1,4 +1,4 @@
-# 🚀 AI CI/CD Failure Predictor (AI-Powered Quality Gate)
+#  AI CI/CD Failure Predictor (AI-Powered Quality Gate)
 
 ![CI Status](https://github.com/Sanjeeviram-07/ai-ci-cd-failure-predictor/actions/workflows/ci.yml/badge.svg)
 
@@ -12,7 +12,7 @@ execution.
 
 ------------------------------------------------------------------------
 
-## 📌 Problem Statement
+##  Problem Statement
 
 CI/CD pipelines often fail due to: - Build errors\
 - Flaky tests\
@@ -26,7 +26,7 @@ risky releases automatically.
 
 ------------------------------------------------------------------------
 
-## 🏗️ Architecture (High-Level)
+##  Architecture (High-Level)
 
     Kaggle CI/CD Logs
           ↓
@@ -44,7 +44,7 @@ risky releases automatically.
 
 ------------------------------------------------------------------------
 
-## 🧰 Tech Stack
+##  Tech Stack
 
 -   Python 3.10\
 -   Scikit-learn\
@@ -55,7 +55,7 @@ risky releases automatically.
 
 ------------------------------------------------------------------------
 
-## 🤖 AI-Powered CI/CD Quality Gate
+##  AI-Powered CI/CD Quality Gate
 
 Decision Logic: - **Risk ≥ Threshold** → ❌ Block deployment\
 - **Risk \< Threshold** → ✅ Allow deployment
@@ -69,7 +69,7 @@ DEMO_MODE=true
 
 ------------------------------------------------------------------------
 
-## 🐳 Docker Support
+##  Docker Support
 
 Build image:
 
@@ -85,7 +85,7 @@ docker run --rm -e DEMO_MODE=true -e FAILURE_THRESHOLD=0.8 ai-ci-cd-failure-pred
 
 ------------------------------------------------------------------------
 
-## 📁 Folder Structure
+##  Folder Structure
 
     ai-ci-cd-failure-predictor/
     ├── .github/
@@ -119,14 +119,14 @@ docker run --rm -e DEMO_MODE=true -e FAILURE_THRESHOLD=0.8 ai-ci-cd-failure-pred
 
 ------------------------------------------------------------------------
 
-## 📦 CI Artifacts
+##  CI Artifacts
 
 -   `metrics.txt`\
 -   `confusion_matrix.png`
 
 ------------------------------------------------------------------------
 
-## ▶️ Run Locally
+##  Run Locally
 
 ``` bash
 pip install -r requirements.txt
@@ -138,7 +138,8 @@ python src/predict.py
 
 ------------------------------------------------------------------------
 
-## 👤 Author
+##  Author
 
 **Sanjeeviram**
+
 
